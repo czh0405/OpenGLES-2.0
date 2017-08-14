@@ -1,9 +1,9 @@
 //
 //  OpenGLView.h
-//  Tutorial01
+//  
 //
-//  Created by  on 12-11-24.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+//  Created by waqu on 2017/8/14.
+//  Copyright © 2017年 com.waqu. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
