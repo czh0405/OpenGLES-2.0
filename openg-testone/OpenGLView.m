@@ -82,7 +82,7 @@
 }
 
 - (void)render {
-    glClearColor(1.0, 0, 0, 1.0);
+    glClearColor(1.0, 1.0, 0, 1.0);
     glClear(GL_COLOR_BUFFER_BIT);
 
     [_context presentRenderbuffer:GL_RENDERBUFFER];
@@ -108,14 +108,5 @@
     
     [self render];
 }
-
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
-{
-    // Drawing code
-}
-*/
 
 @end

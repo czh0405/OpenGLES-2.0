@@ -14,19 +14,18 @@
 
 @implementation ViewController
 
-//@synthesize glView = _glView;
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    CGRect screenBounds = [[UIScreen mainScreen] bounds];
-    self.glView = [[OpenGLView alloc] initWithFrame:screenBounds];
-    [self.view addSubview:self.glView];
     
-    self.view.backgroundColor = [UIColor whiteColor];
- //   [self.view makeKeyAndVisible];
-
+    //Method one
+    self.view = [[OpenGLView alloc] initWithFrame:self.view.bounds];
     
-    // Do any additional setup after loading the view, typically from a nib.
+    //Method two
+//    CGRect screenBounds = [[UIScreen mainScreen] bounds];
+//    self.glView = [[OpenGLView alloc] initWithFrame:screenBounds];
+//    [self.view addSubview:self.glView];
+//    
+//    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 

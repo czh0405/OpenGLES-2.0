@@ -10,10 +10,8 @@
 #import "OpenGLView.h"
 
 @interface ViewController : UIViewController
-{
-//    OpenGLView* _glView;
-}
 
-@property (strong, retain) IBOutlet OpenGLView *glView;
+// Method two
+//@property (strong, retain) IBOutlet OpenGLView *glView;
 @end
 
